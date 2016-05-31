@@ -1,0 +1,4 @@
+# sample bean configuration
+
+string: yaml string value
+longValue: 15
