@@ -8,6 +8,7 @@
   <description>Configuration using CDI</description>
   <url>https://github.com/chonton/config-cdi</url>
   <inceptionYear>2016</inceptionYear>
+  <name>Configure with CDI</name>
 
   <licenses>
     <license>
