@@ -55,7 +55,7 @@ Configuration object attributes without a corresponding attribute in the documen
 <dependency>
   <groupId>org.honton.chas</groupId>
   <artifactId>config-cdi</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.2</version>
 </dependency>
 ```
 
@@ -73,7 +73,7 @@ Configuration object attributes without a corresponding attribute in the documen
 <dependency>
   <groupId>com.fasterxml.jackson.dataformat</groupId>
   <artifactId>jackson-dataformat-yaml</artifactId>
-  <version>2.7.4</version>
+  <version>2.9.8</version>
 </dependency>
 ```
 
@@ -82,7 +82,7 @@ Configuration object attributes without a corresponding attribute in the documen
 <dependency>
   <groupId>com.jasonclawson</groupId>
   <artifactId>jackson-dataformat-hocon</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
 </dependency>
 ```
 
@@ -91,7 +91,7 @@ Configuration object attributes without a corresponding attribute in the documen
 <dependency>
   <groupId>com.fasterxml.jackson.dataformat</groupId>
   <artifactId>jackson-dataformat-xml</artifactId>
-  <version>2.7.4</version>
+  <version>2.9.8</version>
 </dependency>
 ```
 
