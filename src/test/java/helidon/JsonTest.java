@@ -1,7 +1,7 @@
-package org.honton.chas.configuration;
+package helidon;
 
+import io.helidon.config.ConfigValue;
 import javax.inject.Inject;
-
 import org.jglue.cdiunit.AdditionalPackages;
 import org.jglue.cdiunit.CdiRunner;
 import org.junit.Assert;
@@ -9,12 +9,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(CdiRunner.class)
-@AdditionalPackages(ConfigurationCache.class)
+@AdditionalPackages(ConfigSourceFactory.class)
 public class JsonTest {
 	
 	@Inject
 	@ConfigurationSource("classpath:json-config-bean.json")
-	ConfigurationCache<ConfigBean> json;
+	ConfigValue<ConfigBean> json;
 	
 	@Test
 	public void testJson() {

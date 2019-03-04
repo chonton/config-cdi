@@ -1,17 +1,16 @@
-package org.honton.chas.configuration;
+package helidon;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
 import javax.enterprise.util.Nonbinding;
 import javax.inject.Qualifier;
 
 /**
- * Annotation to indicate the configuration source for {@link ConfigurationCache} injections.
- * The value of this annotation is a URI which locates the configuration file.
- * In addition to supporting 'file' URIs, {@link ConfigurationCacheFactory} will produce from a 'classpath' URI.
+ * Annotation to indicate the configuration source for {@link io.helidon.config.ConfigValue} injections.
+ * The value of this annotation is a URI which locates the configuration file.  The URI schemes
+ * of 'file', 'classpath', 'http', and 'https' are supported.
  */
 @Qualifier
 @Retention(RetentionPolicy.RUNTIME)
